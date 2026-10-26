@@ -1,0 +1,44 @@
+Charts written to /home/claude/work/sentiment_project/artifacts/charts
+{
+ "sentiment_counts": {
+  "Negative": 24626,
+  "Neutral": 13808,
+  "Positive": 125390
+ },
+ "sentiment_pct": {
+  "Negative": 15.0,
+  "Neutral": 8.4,
+  "Positive": 76.5
+ },
+ "total_reviews": 163824,
+ "n_products": 754,
+ "words_median": 4.0,
+ "words_mean": 8.5,
+ "words_median_by_sentiment": {
+  "Negative": 5.0,
+  "Neutral": 4.0,
+  "Positive": 3.0
+ },
+ "words_mean_by_sentiment": {
+  "Negative": 10.3,
+  "Neutral": 8.7,
+  "Positive": 8.1
+ },
+ "n_products_ge_300_reviews": 111,
+ "lowest_positive_share_products": {
+  "Men Black Sandal": 40.4,
+  "SSTOYS 3D Fast Modern Car": 50.3,
+  "Men Graphic Print Round Neck Black T-Shirt": 50.8
+ },
+ "highest_positive_share_products": {
+  "Hindware Nevio Plus 60 Auto Clean Wall Mounted Chimney": 92.8,
+  "APPLE iPad": 93.4,
+  "APPLE 2020 Macbook Air M1 -": 96.0
+ },
+ "median_price_by_sentiment": {
+  "Negative": 655.0,
+  "Neutral": 648.0,
+  "Positive": 1095.0
+ }
+}
+top words: {'Negative': ['not', 'very', 'product', 'bad', 'quality', 'good', 'buy', 'worst'], 'Neutral': ['good', 'not', 'product', 'but', 'very', 'nice', 'quality', 'ok'], 'Positive': ['good', 'product', 'very', 'nice', 'quality', 'best', 'but', 'price'], 'Overall': ['good', 'product', 'very', 'nice', 'not', 'quality', 'but', 'best']}

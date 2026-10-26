@@ -1,0 +1,21 @@
+Loading and cleaning data ...
+  raw rows 189,874 | analysis rows 163,824 | unique texts for modelling 79,993
+  train 63,994 | test 15,999
+Training Logistic Regression ...
+  CV macro-F1 0.6843 | test acc 0.8316 | test macro-F1 0.6998
+Training Multinomial Naive Bayes ...
+  CV macro-F1 0.6609 | test acc 0.8596 | test macro-F1 0.6662
+Training Linear SVM (LinearSVC) ...
+  CV macro-F1 0.6920 | test acc 0.8629 | test macro-F1 0.7028
+Selected: Linear SVM (LinearSVC)
+Cleaner idempotency check on 500 test texts: 100.0% unchanged
+
+Comparison (held-out test set):
+                  model  accuracy  precision_macro  recall_macro  f1_macro  f1_weighted  cv_f1_macro_mean  cv_f1_macro_std
+    Logistic Regression    0.8316           0.6890        0.7263    0.6998       0.8467            0.6843           0.0011
+Multinomial Naive Bayes    0.8596           0.7113        0.6475    0.6662       0.8439            0.6609           0.0037
+ Linear SVM (LinearSVC)    0.8629           0.7033        0.7026    0.7028       0.8616            0.6920           0.0033
+
+Majority-class baseline accuracy: 0.7132
+Saved model -> /home/claude/work/sentiment_project/artifacts/sentiment_model.joblib
+Done in 77s

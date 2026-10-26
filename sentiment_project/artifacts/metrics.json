@@ -1,0 +1,414 @@
+{
+  "labels": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "selected_model": "Linear SVM (LinearSVC)",
+  "score_kind": "relative score",
+  "selection_criterion": "mean 3-fold cross-validated macro-F1 on the training set",
+  "comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.8315519719982499,
+      "precision_macro": 0.6889975993015627,
+      "recall_macro": 0.7263248419549213,
+      "f1_macro": 0.6997987451276337,
+      "f1_weighted": 0.8466643311043434,
+      "cv_f1_macro_mean": 0.6843252156091908,
+      "cv_f1_macro_std": 0.0010903489981664589
+    },
+    {
+      "model": "Multinomial Naive Bayes",
+      "accuracy": 0.8596162260141259,
+      "precision_macro": 0.7113499736934323,
+      "recall_macro": 0.6475322446906414,
+      "f1_macro": 0.6661796184448621,
+      "f1_weighted": 0.843913684284421,
+      "cv_f1_macro_mean": 0.6608988792437568,
+      "cv_f1_macro_std": 0.003665942202210073
+    },
+    {
+      "model": "Linear SVM (LinearSVC)",
+      "accuracy": 0.8629289330583162,
+      "precision_macro": 0.7032951483964749,
+      "recall_macro": 0.7026087566733521,
+      "f1_macro": 0.7027937597842606,
+      "f1_weighted": 0.8615605899084356,
+      "cv_f1_macro_mean": 0.6919627480984333,
+      "cv_f1_macro_std": 0.0032717173835849025
+    }
+  ],
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.8315519719982499,
+      "precision_macro": 0.6889975993015627,
+      "recall_macro": 0.7263248419549213,
+      "f1_macro": 0.6997987451276337,
+      "f1_weighted": 0.8466643311043434,
+      "report": {
+        "Negative": {
+          "precision": 0.8208346407279573,
+          "recall": 0.821608040201005,
+          "f1-score": 0.8212211583738817,
+          "support": 3184.0
+        },
+        "Neutral": {
+          "precision": 0.29470922606034106,
+          "recall": 0.4797153024911032,
+          "f1-score": 0.36511375947995667,
+          "support": 1405.0
+        },
+        "Positive": {
+          "precision": 0.9514489311163895,
+          "recall": 0.8776511831726556,
+          "f1-score": 0.9130613175290632,
+          "support": 11410.0
+        },
+        "accuracy": 0.8315519719982499,
+        "macro avg": {
+          "precision": 0.6889975993015627,
+          "recall": 0.7263248419549213,
+          "f1-score": 0.6997987451276337,
+          "support": 15999.0
+        },
+        "weighted avg": {
+          "precision": 0.8677815027645853,
+          "recall": 0.8315519719982499,
+          "f1-score": 0.8466643311043434,
+          "support": 15999.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          2616,
+          439,
+          129
+        ],
+        [
+          349,
+          674,
+          382
+        ],
+        [
+          222,
+          1174,
+          10014
+        ]
+      ],
+      "cv_f1_macro_mean": 0.6843252156091908,
+      "cv_f1_macro_std": 0.0010903489981664589,
+      "supports_probabilities": true
+    },
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.8596162260141259,
+      "precision_macro": 0.7113499736934323,
+      "recall_macro": 0.6475322446906414,
+      "f1_macro": 0.6661796184448621,
+      "f1_weighted": 0.843913684284421,
+      "report": {
+        "Negative": {
+          "precision": 0.8292764254751583,
+          "recall": 0.7810929648241206,
+          "f1-score": 0.804463852498787,
+          "support": 3184.0
+        },
+        "Neutral": {
+          "precision": 0.41333333333333333,
+          "recall": 0.19857651245551602,
+          "f1-score": 0.26826923076923076,
+          "support": 1405.0
+        },
+        "Positive": {
+          "precision": 0.8914401622718052,
+          "recall": 0.9629272567922875,
+          "f1-score": 0.9258057720665683,
+          "support": 11410.0
+        },
+        "accuracy": 0.8596162260141259,
+        "macro avg": {
+          "precision": 0.7113499736934323,
+          "recall": 0.6475322446906414,
+          "f1-score": 0.6661796184448621,
+          "support": 15999.0
+        },
+        "weighted avg": {
+          "precision": 0.8370824253745569,
+          "recall": 0.8596162260141259,
+          "f1-score": 0.843913684284421,
+          "support": 15999.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          2487,
+          149,
+          548
+        ],
+        [
+          336,
+          279,
+          790
+        ],
+        [
+          176,
+          247,
+          10987
+        ]
+      ],
+      "cv_f1_macro_mean": 0.6608988792437568,
+      "cv_f1_macro_std": 0.003665942202210073,
+      "supports_probabilities": true
+    },
+    "Linear SVM (LinearSVC)": {
+      "accuracy": 0.8629289330583162,
+      "precision_macro": 0.7032951483964749,
+      "recall_macro": 0.7026087566733521,
+      "f1_macro": 0.7027937597842606,
+      "f1_weighted": 0.8615605899084356,
+      "report": {
+        "Negative": {
+          "precision": 0.8183491868671372,
+          "recall": 0.8376256281407035,
+          "f1-score": 0.8278752134099022,
+          "support": 3184.0
+        },
+        "Neutral": {
+          "precision": 0.357630979498861,
+          "recall": 0.33523131672597867,
+          "f1-score": 0.346069066862601,
+          "support": 1405.0
+        },
+        "Positive": {
+          "precision": 0.9339052788234264,
+          "recall": 0.9349693251533743,
+          "f1-score": 0.9344369990802786,
+          "support": 11410.0
+        },
+        "accuracy": 0.8629289330583162,
+        "macro avg": {
+          "precision": 0.7032951483964749,
+          "recall": 0.7026087566733521,
+          "f1-score": 0.7027937597842606,
+          "support": 15999.0
+        },
+        "weighted avg": {
+          "precision": 0.860300929342844,
+          "recall": 0.8629289330583162,
+          "f1-score": 0.8615605899084356,
+          "support": 15999.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          2667,
+          306,
+          211
+        ],
+        [
+          390,
+          471,
+          544
+        ],
+        [
+          202,
+          540,
+          10668
+        ]
+      ],
+      "cv_f1_macro_mean": 0.6919627480984333,
+      "cv_f1_macro_std": 0.0032717173835849025,
+      "supports_probabilities": false
+    }
+  },
+  "final_saved_model_test": {
+    "accuracy": 0.8629289330583162,
+    "precision_macro": 0.7032951483964749,
+    "recall_macro": 0.7026087566733521,
+    "f1_macro": 0.7027937597842606,
+    "f1_weighted": 0.8615605899084356,
+    "report": {
+      "Negative": {
+        "precision": 0.8183491868671372,
+        "recall": 0.8376256281407035,
+        "f1-score": 0.8278752134099022,
+        "support": 3184.0
+      },
+      "Neutral": {
+        "precision": 0.357630979498861,
+        "recall": 0.33523131672597867,
+        "f1-score": 0.346069066862601,
+        "support": 1405.0
+      },
+      "Positive": {
+        "precision": 0.9339052788234264,
+        "recall": 0.9349693251533743,
+        "f1-score": 0.9344369990802786,
+        "support": 11410.0
+      },
+      "accuracy": 0.8629289330583162,
+      "macro avg": {
+        "precision": 0.7032951483964749,
+        "recall": 0.7026087566733521,
+        "f1-score": 0.7027937597842606,
+        "support": 15999.0
+      },
+      "weighted avg": {
+        "precision": 0.860300929342844,
+        "recall": 0.8629289330583162,
+        "f1-score": 0.8615605899084356,
+        "support": 15999.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        2667,
+        306,
+        211
+      ],
+      [
+        390,
+        471,
+        544
+      ],
+      [
+        202,
+        540,
+        10668
+      ]
+    ]
+  },
+  "baseline_majority_accuracy": 0.7131695730983186,
+  "split": {
+    "train": 63994,
+    "test": 15999,
+    "test_size": 0.2,
+    "random_state": 42,
+    "train_class_counts": {
+      "Positive": 45639,
+      "Negative": 12734,
+      "Neutral": 5621
+    },
+    "test_class_counts": {
+      "Positive": 11410,
+      "Negative": 3184,
+      "Neutral": 1405
+    }
+  },
+  "tfidf": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 3,
+    "max_df": 0.95,
+    "sublinear_tf": true,
+    "vocabulary_size": 30196
+  },
+  "data_quality": {
+    "raw": {
+      "rows": 189874,
+      "columns": [
+        "ProductName",
+        "Price",
+        "Rate",
+        "Review",
+        "Summary"
+      ],
+      "dtypes": {
+        "ProductName": "str",
+        "Price": "str",
+        "Rate": "str",
+        "Review": "str",
+        "Summary": "str"
+      },
+      "missing": {
+        "ProductName": 0,
+        "Price": 1,
+        "Rate": 1,
+        "Review": 4,
+        "Summary": 14
+      },
+      "duplicate_rows": 24861
+    },
+    "columns_used": {
+      "text": "Summary",
+      "rating": "Rate",
+      "product": "ProductName",
+      "price": "Price",
+      "title": "Review"
+    },
+    "rows_dropped_invalid_rating": 5,
+    "rows_dropped_missing_text": 13,
+    "rows_dropped_exact_duplicates": 25788,
+    "rows_dropped_empty_after_cleaning": 244,
+    "unique_clean_texts": 79993,
+    "texts_with_conflicting_labels": 1165,
+    "analysis_rows": 163824,
+    "model_rows": 79993
+  },
+  "top_features": {
+    "Negative": [
+      "not",
+      "worst",
+      "waste",
+      "poor",
+      "not good",
+      "bad",
+      "useless",
+      "not worth",
+      "stopped",
+      "wrost",
+      "horrible",
+      "no",
+      "not buy",
+      "pathetic",
+      "cheating"
+    ],
+    "Neutral": [
+      "good",
+      "average",
+      "not",
+      "ok",
+      "boy excellent",
+      "looking love",
+      "buy worst",
+      "wow awesome",
+      "slipper",
+      "money poor",
+      "nice",
+      "but",
+      "opinion",
+      "not sufficient",
+      "utilize"
+    ],
+    "Positive": [
+      "good",
+      "excellent",
+      "awesome",
+      "great",
+      "best",
+      "not bad",
+      "amazing",
+      "superb",
+      "nice",
+      "easy",
+      "fantastic",
+      "love",
+      "very good",
+      "loved",
+      "worth"
+    ]
+  },
+  "label_mapping": {
+    "1-2 stars": "Negative",
+    "3 stars": "Neutral",
+    "4-5 stars": "Positive"
+  },
+  "seconds": 77.4,
+  "model_class_counts": {
+    "Positive": 57049,
+    "Negative": 15918,
+    "Neutral": 7026
+  }
+}

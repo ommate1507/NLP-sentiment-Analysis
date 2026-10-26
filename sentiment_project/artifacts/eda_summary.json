@@ -1,0 +1,312 @@
+{
+  "sentiment_counts": {
+    "Negative": 24626,
+    "Neutral": 13808,
+    "Positive": 125390
+  },
+  "sentiment_pct": {
+    "Negative": 15.0,
+    "Neutral": 8.4,
+    "Positive": 76.5
+  },
+  "total_reviews": 163824,
+  "n_products": 754,
+  "words_median": 4.0,
+  "words_mean": 8.5,
+  "words_median_by_sentiment": {
+    "Negative": 5.0,
+    "Neutral": 4.0,
+    "Positive": 3.0
+  },
+  "words_mean_by_sentiment": {
+    "Negative": 10.3,
+    "Neutral": 8.7,
+    "Positive": 8.1
+  },
+  "top_words": {
+    "Negative": [
+      [
+        "not",
+        14459
+      ],
+      [
+        "very",
+        7608
+      ],
+      [
+        "product",
+        7424
+      ],
+      [
+        "bad",
+        5483
+      ],
+      [
+        "quality",
+        5408
+      ],
+      [
+        "good",
+        3826
+      ],
+      [
+        "buy",
+        2796
+      ],
+      [
+        "worst",
+        2302
+      ],
+      [
+        "poor",
+        2252
+      ],
+      [
+        "money",
+        2222
+      ],
+      [
+        "working",
+        2072
+      ],
+      [
+        "waste",
+        2041
+      ],
+      [
+        "but",
+        1917
+      ],
+      [
+        "no",
+        1382
+      ],
+      [
+        "only",
+        1135
+      ]
+    ],
+    "Neutral": [
+      [
+        "good",
+        5736
+      ],
+      [
+        "not",
+        4404
+      ],
+      [
+        "product",
+        3188
+      ],
+      [
+        "but",
+        2702
+      ],
+      [
+        "very",
+        1907
+      ],
+      [
+        "nice",
+        1766
+      ],
+      [
+        "quality",
+        1701
+      ],
+      [
+        "ok",
+        1695
+      ],
+      [
+        "small",
+        858
+      ],
+      [
+        "size",
+        722
+      ],
+      [
+        "bad",
+        705
+      ],
+      [
+        "price",
+        660
+      ],
+      [
+        "average",
+        528
+      ],
+      [
+        "only",
+        466
+      ],
+      [
+        "too",
+        465
+      ]
+    ],
+    "Positive": [
+      [
+        "good",
+        54683
+      ],
+      [
+        "product",
+        44830
+      ],
+      [
+        "very",
+        29870
+      ],
+      [
+        "nice",
+        28783
+      ],
+      [
+        "quality",
+        14530
+      ],
+      [
+        "best",
+        9267
+      ],
+      [
+        "but",
+        8779
+      ],
+      [
+        "price",
+        7362
+      ],
+      [
+        "flipkart",
+        7359
+      ],
+      [
+        "not",
+        7103
+      ],
+      [
+        "awesome",
+        6613
+      ],
+      [
+        "super",
+        6017
+      ],
+      [
+        "money",
+        5897
+      ],
+      [
+        "excellent",
+        4992
+      ],
+      [
+        "value",
+        4466
+      ]
+    ],
+    "Overall": [
+      [
+        "good",
+        64245
+      ],
+      [
+        "product",
+        55442
+      ],
+      [
+        "very",
+        39385
+      ],
+      [
+        "nice",
+        30795
+      ],
+      [
+        "not",
+        25966
+      ],
+      [
+        "quality",
+        21639
+      ],
+      [
+        "but",
+        13398
+      ],
+      [
+        "best",
+        9660
+      ],
+      [
+        "flipkart",
+        8576
+      ],
+      [
+        "money",
+        8466
+      ],
+      [
+        "price",
+        8455
+      ],
+      [
+        "bad",
+        6970
+      ],
+      [
+        "buy",
+        6937
+      ],
+      [
+        "awesome",
+        6738
+      ],
+      [
+        "super",
+        6272
+      ],
+      [
+        "excellent",
+        5093
+      ],
+      [
+        "working",
+        4879
+      ],
+      [
+        "value",
+        4751
+      ],
+      [
+        "like",
+        4548
+      ],
+      [
+        "happy",
+        4386
+      ]
+    ]
+  },
+  "n_products_ge_300_reviews": 111,
+  "lowest_positive_share_products": {
+    "Men Black Sandal": 40.4,
+    "SSTOYS 3D Fast Modern Car": 50.3,
+    "Men Graphic Print Round Neck Black T-Shirt": 50.8
+  },
+  "highest_positive_share_products": {
+    "Hindware Nevio Plus 60 Auto Clean Wall Mounted Chimney": 92.8,
+    "APPLE iPad": 93.4,
+    "APPLE 2020 Macbook Air M1 -": 96.0
+  },
+  "median_price_by_sentiment": {
+    "Negative": 655.0,
+    "Neutral": 648.0,
+    "Positive": 1095.0
+  }
+}
